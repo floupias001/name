@@ -2,12 +2,13 @@
 //
 
 #include <iostream>
-#include "test.h"
+#include "Header.h"
 
 int main()
 {
-	int v = test();
-	std::cout << "Hello World!" << v << "\n";
+	std::cout << "Hello World!";
+	int w = test();
+	std::cout << w << "\n";
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
